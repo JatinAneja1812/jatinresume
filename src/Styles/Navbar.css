@@ -1,0 +1,108 @@
+nav {
+
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    position: -webkit-sticky;
+    position: fixed;
+    background-color: transparent;
+    transition: background-color 1.4s, all 0.5s linear;
+  }
+
+  .newNavigation{
+    position: absolute;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    top: 86px;
+    left: 100%;
+    width: 30%;
+    text-align: center;
+    background-color: #508ae7;
+    transform: translateX(10%);
+    transition: transform 0.5s ease-in;
+  }
+
+  nav.colorChange {
+    background-color: #000;
+  }
+
+  nav h1 {
+    color: chartreuse;
+  }
+  
+  nav a {
+    color: white;
+    transition: var(--transition);
+  }
+  nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid chartreuse;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.9rem;
+  }
+  
+  nav ul li {
+    font-weight: var(--bold-font);
+  }
+
+  .burger-menu {
+    color: #fff;
+    font-size: 2rem;
+    border: 0;
+    background-color: #000000;
+    cursor: pointer;
+    display: none;
+  }
+
+  @media screen and (max-width: 720px) {
+    /*changes reflects on screen with a width of 720px and below*/
+
+    nav {
+        padding: 1.5rem 1rem;
+      }
+
+      nav ul {
+        position: fixed;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        top: 86px;
+        left: 65%;
+        width: 30%;
+        text-align: center;
+        background-color: #508ae7;
+        transform: translateX(10%);
+        transition: transform 0.5s ease-in;
+      }
+    
+       nav ul li {
+        margin: 8px;
+      }
+
+      .burger-menu {
+        display: block;
+        position: relative;
+      }
+    
+      nav ul .show {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.4);
+        flex-direction: column;
+        top: 86px;
+        left: 65%;
+        width: 30%;
+        text-align: center;
+        background-color: #508ae7;
+        transform: translateX(0);
+        transition: transform 0.5s ease-in;
+      }
+  }

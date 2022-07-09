@@ -1,0 +1,29 @@
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 7rem;
+}
+  
+  
+  .skill-header {
+    margin-bottom: 3rem;
+    color: chartreuse;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 7.875rem;
+    height: 7.25rem;
+  }
+  .icon-card {
+    background-color:transparent;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }

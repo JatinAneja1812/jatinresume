@@ -1,0 +1,52 @@
+.projects {
+    background-image: url('https://th.bing.com/th/id/R.9c8d0e1935d42427073ff999772be772?rik=O7KFGLdSehS99Q&riu=http%3a%2f%2fwww.ibiblio.org%2fthemug%2fdesktops%2fOS10.4%2fAqua-BlueMidnight-104.jpg&ehk=%2bg6DB5ytT2iCzFBWau7vvlBcO63CVzqO69bTDtZPA%2b4%3d&risl=&pid=ImgRaw&r=0');
+    width: 100%;
+    padding: 32px 0;
+    margin-top: 2rem;
+  }
+  
+  .project-pic {
+    width: 65%;
+    height: 60%;
+  }
+  
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projects-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: chartreuse;
+    font-size: 32px;
+  }
+  
+  .project-container {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+  }
+
+  .project-container p {
+    padding: 0.4rem;
+    color: whitesmoke;
+  }
+  
+  .project-title {
+    margin-bottom: var(--bottom-margin);
+    color: chartreuse;
+  }
+  
+  .project-details {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .project-card {
+    background-color: transparent;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 15px;
+    margin: 10px;
+  }
