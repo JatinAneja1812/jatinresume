@@ -79,7 +79,7 @@ nav {
         left: 65%;
         width: 30%;
         text-align: center;
-        background-color: #508ae7;
+        background-color: #1b407c;
         transform: translateX(10%);
         transition: transform 0.5s ease-in;
       }
@@ -101,7 +101,7 @@ nav {
         left: 65%;
         width: 30%;
         text-align: center;
-        background-color: #508ae7;
+        background-color: #1c4c99;
         transform: translateX(0);
         transition: transform 0.5s ease-in;
       }

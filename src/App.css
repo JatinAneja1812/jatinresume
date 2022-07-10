@@ -32,7 +32,7 @@ body {
   display: grid;
   position: relative;
   height: 300vh;
-  background: linear-gradient(1deg, #000000 0%, #1316b0 100%);
+  background: linear-gradient(1deg, #000000 0%, #040666 100%);
 }
 
 /* CSS Resets */
