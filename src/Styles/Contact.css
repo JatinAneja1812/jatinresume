@@ -42,3 +42,11 @@
     background: transparent;
     color: white;
 }
+
+
+@media screen and (max-width: 720px) {
+
+  .contact-form-container {
+    max-width: 23.75rem;
+  }
+}

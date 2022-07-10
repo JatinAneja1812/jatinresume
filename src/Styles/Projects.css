@@ -50,3 +50,16 @@
     padding: 15px;
     margin: 10px;
   }
+
+
+  @media screen and (max-width: 720px) {
+    /*changes reflects on screen with a width of 720px and below*/
+  
+    .projects-container {
+      flex-direction: column;
+    }
+  
+    .project-container {
+      width: 20.875rem;
+    }
+  }  

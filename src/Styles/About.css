@@ -2,169 +2,175 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2.5rem;
-    max-width: 68.75rem;
-    padding-bottom: 30px;
-    margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  padding-bottom: 30px;
+  margin: auto;
+}
+
+.hero img {
+  height: 37.5rem;
+  width: 37.5rem;
+}
+
+.site-layout-outer-main-background {
+
+  position: relative;
+  background-image: url('https://th.bing.com/th/id/R.d5983181ed45742f53e5203c73f1ce55?rik=Xfo%2f1G2yDZB%2fww&riu=http%3a%2f%2ft04.deviantart.net%2f_WG11XPXOcVhmSFwsBn-rbPerL4%3d%2f300x200%2ffilters%3afixed_height(100%2c100)%3aorigin()%2fpre07%2fb855%2fth%2fpre%2fi%2f2006%2f165%2f6%2f7%2fcrosscut_by_boss019.jpg&ehk=yZPPhGeaCWUG1enqkprqqZHtM3eBVtWy5adB2kxr8GI%3d&risl=&pid=ImgRaw&r=0');
+  height: 30.5rem;
+  width: 29.5rem;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 3.1);
+  display: flex;
+  resize: auto;
+  font-family: Arial, Helvetica, sans;
+  z-index: auto;
+}
+
+.site-layout-innerbackground {
+  background: #fff;
+  height: 23.5rem;
+  width: 13.5rem;
+  background-image: url("../img/mypic.png");
+  padding-left: 100%;
+  margin-left: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 3.1);
+
+}
+
+.site-layout-background {
+  position: relative;
+  background: #222;
+  height: 28.5rem;
+  width: 27.5rem;
+  margin: auto;
+  padding: auto;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 3.1);
+  display: flex;
+  resize: auto;
+  font-family: Arial, Helvetica, sans;
+  z-index: auto;
+}
+
+.bio {
+  width: 25rem;
+  padding: 0.625rem;
+  margin-top: 55px;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+
+.bio h1 {
+  color: chartreuse;
+  margin-bottom: var(--bottom-margin);
+}
+
+.bio p {
+  color: white;
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+}
+
+.bio-title {
+  color: chartreuse;
+  font-size: 70px;
+  text-shadow: 0 4px 8px #b1ceff;
+  margin-top: 5px;
+  margin-left: 20px;
+  font-family: "Licorice";
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.bio .animate__animated .animate__shakeX .h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 140px;
+  margin-top: -30px;
+  font-family: "Montserrat";
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-shadow: 0 4px 8px rgb(106, 104, 104);
+}
+
+.icons {
+  margin-top: -12px;
+  margin-left: 40px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: transparent;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: transparent;
+  color: white;
+}
+
+/* Github */
+.fa-github {
+  background: transparent;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: transparent;
+  color: rgb(255, 100, 164);
+}
+
+/* linkedin */
+.fa-linkedin {
+  background: transparent;
+  color: rgb(40, 142, 244);
+}
+
+
+@media screen and (max-width: 720px) {
+  /*changes reflects on screen with a width of 720px and below*/
+
+  .hero {
+    margin-top: 4rem;
+    flex-direction: column;
+    gap: 0;
+    margin-left: -15rem;
   }
 
   .hero img {
     height: 37.5rem;
-    width: 37.5rem;
+    width: 30rem;
+  }
+
+  .bio {
+    width: 29.5rem;
+    margin-top: 34px;
+    margin-left: 215px;
   }
 
   .site-layout-outer-main-background {
-
-    position: relative;
-    background-image: url('https://th.bing.com/th/id/R.d5983181ed45742f53e5203c73f1ce55?rik=Xfo%2f1G2yDZB%2fww&riu=http%3a%2f%2ft04.deviantart.net%2f_WG11XPXOcVhmSFwsBn-rbPerL4%3d%2f300x200%2ffilters%3afixed_height(100%2c100)%3aorigin()%2fpre07%2fb855%2fth%2fpre%2fi%2f2006%2f165%2f6%2f7%2fcrosscut_by_boss019.jpg&ehk=yZPPhGeaCWUG1enqkprqqZHtM3eBVtWy5adB2kxr8GI%3d&risl=&pid=ImgRaw&r=0');
-    height: 30.5rem;
-    width: 29.5rem;
-    box-shadow: 0 8px 50px rgba(0, 0, 0, 3.1);
-    display: flex;
-    resize: auto;
-    font-family: Arial, Helvetica, sans;
-    z-index: auto;
-  }
-  
-  .site-layout-innerbackground {
-    background: #fff;
-    height: 23.5rem;
-    width: 13.5rem;
-    background-image: url("../img/mypic.png");
-    padding-left: 100%;
-    margin-left: 10px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 3.1);
-  
-  }
-  .site-layout-background {
-    position: relative;
-    background: #222;
-    height: 28.5rem;
-    width: 27.5rem;
-    margin: auto;
-    padding: auto;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 3.1);
-    display: flex;
-    resize: auto;
-    font-family: Arial, Helvetica, sans;
-    z-index: auto;
-  }
-  
-  .bio {
-    width: 25rem;
-    padding: 0.625rem;
-    margin-top: 55px;
-    color: white;
-    border-radius: 6px;
-    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-  }
-  
-  .bio h1 {
-    color: chartreuse;
-    margin-bottom: var(--bottom-margin);
-  }
-  
-  .bio p {
-    color: white;
-    line-height: var(--line-height);
-    padding: 0.3rem 0;
+    margin-left: 220px;
   }
 
-  .bio-title{
-    color: chartreuse;
-    font-size: 70px;
-    text-shadow: 0 4px 8px #b1ceff;
-    margin-top: 5px;
-    margin-left: 20px;
-    font-family: "Licorice";
-    text-transform: capitalize;
-    margin-bottom: 40px;
-  }
-
-  .bio .animate__animated .animate__shakeX .h4{
-    font-size: 22px;
-    font-weight: bold;
-    margin-left: 140px;
-    margin-top: -30px;
-    font-family: "Montserrat";
-    text-transform: capitalize;
-    margin-bottom: 10px;
-    color: #ffffff;
-    text-shadow: 0 4px 8px rgb(106, 104, 104);
-  }
-
-  .icons{
-    margin-top: -12px;
-    margin-left: 40px;
-  }
-/* Style all font awesome icons */
-.fa {
-    padding: 20px;
-    font-size: 40px;
-    size: 20px;
-    width: 40px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  /* Facebook */
-  .fa-facebook {
-    background: transparent;
-    color: white;
-  }
-  
-  /* Twitter */
-  .fa-twitter {
-    background: transparent;
-    color: white;
-  }
-  
-  /* Github */
-  .fa-github {
-    background: transparent;
-    color: white;
-  }
-  
-  /* Instagram */
-  .fa-instagram {
-    background: transparent;
-    color: rgb(255, 100, 164);
-  }
-  
-  /* linkedin */
-  .fa-linkedin {
-    background: transparent;
-    color: rgb(40, 142, 244);
-  }
-
-
-  @media screen and (max-width: 720px) {
-    /*changes reflects on screen with a width of 720px and below*/
-
-    .hero {
-      margin-top: 4rem;
-      flex-direction: column;
-      gap: 0;
-      margin-left: -15rem;
-    }
-  
-    .hero img {
-          height: 37.5rem;
-          width: 30rem;
-      }
-
-    .bio {
-      margin-top: -7rem;
-      width: 29.5rem;
-      margin-top: 34px;
-    }
-  }
-
+}

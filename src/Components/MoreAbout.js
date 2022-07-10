@@ -1,15 +1,19 @@
 import React from "react";
 import "../Styles/MoreAbout.css";
 import { Row, Col } from "antd";
+import windowDimensions from "../Components/ScreenDimHook";
 
 export default function MoreAbout(props) {
+
+  const {width} = windowDimensions;
+
   return (
     <>
       <section class="more-about" id={props.id}>
         <h2>More About Me</h2>
         <Row>
           <Col>
-            <p>
+            <p style={{width:width}}>
               {" "}
               Hi, I'm a Jatin, 21 years old. I'm a Software Developer,
               Competitive Programmer, Technical Writer, and an Open Source
