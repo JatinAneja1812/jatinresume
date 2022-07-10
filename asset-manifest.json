@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jatinresume/static/css/main.da9dc79a.css",
+    "main.js": "/jatinresume/static/js/main.4d590b81.js",
+    "static/js/787.8b7de6fc.chunk.js": "/jatinresume/static/js/787.8b7de6fc.chunk.js",
+    "static/media/mypic.png": "/jatinresume/static/media/mypic.fbd617e135b5207d5134.png",
+    "index.html": "/jatinresume/index.html",
+    "main.da9dc79a.css.map": "/jatinresume/static/css/main.da9dc79a.css.map",
+    "main.4d590b81.js.map": "/jatinresume/static/js/main.4d590b81.js.map",
+    "787.8b7de6fc.chunk.js.map": "/jatinresume/static/js/787.8b7de6fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da9dc79a.css",
+    "static/js/main.4d590b81.js"
+  ]
+}
